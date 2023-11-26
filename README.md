@@ -11,8 +11,6 @@ Building the trading was a logique choice for me. I knew that I needed a challen
 When I'm typing this code the database weight 5GB, has 5 different tables with one with more than 35millions rows. 
 The platform has 8 different strategy (4 buying and 4 shorting) that can be used for 11 000 different stocks, cryptos... tockers. The list of tickers are adjusted everyday, the data are added to the database and shownn in real time on the website. Plus on the website you have access to a trading view chart, with every toulls available.
 
-<br>
-
 little disclamer
 The code is finished and the website function in local, nonetheless, the html code for the user interface is, in my taste, not good enought. Even if building website is not a part of the data science fiel I am dedicated to deliver a work of excellance. I will publish the link to the website as soon as I finish. Thanks for your understanding. 
 
