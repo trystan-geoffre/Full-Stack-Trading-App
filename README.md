@@ -1,19 +1,20 @@
-<h1 align="center">Full Stack Trading App</h1>
+<h1 align="center">Full Stack Trading Platform</h1>
 
 <br>
 
-Welcome to my repository dedicated to explain the construction of a Trading app!
+Welcome to my repository dedicated to explain the construction of a Trading Plartform!
 
 <br>
 
 <h2 align="center">🌅 Journey Highlights 🌅</h2>
-My initiation into the world of Deep Learning started with the enlightening 6.S191 MIT course by Alexander Amini. Building on this foundation, I expanded my knowledge by following the instructive courses curated by Josh Stamer. The hands-on experience in the practical application of Deep Learning with TensorFlow was facilitated by Aladdin Persson's tutorials, culminating in being certified TensorFlow Developer by Google.
-I express my gratitude to these educators for providing excellent and free resources to the community.
+Building the trading was a logique choice for me. I knew that I needed a challenge to showcase my skills in building, maintening dinamicly quering joining tables for well sized database. Plus I'm an enthousiast of finance and especially trading. I had already built a trading AI with TensorFlow so the next step was to build a trading platform based on my own database and having multiple trading strategy.
+When I'm typing this code the database weight 5GB, has 5 different tables with one with more than 35millions rows. 
+The platform has 8 different strategy (4 buying and 4 shorting) that can be used for 11 000 different stocks, cryptos... tockers. The list of tickers are adjusted everyday, the data are added to the database and shownn in real time on the website. Plus on the website you have access to a trading view chart, with every toulls available.
 
 <br>
 
-
-The code is finished and the website function in local, nonetheless, the html code for the user interface is not. Even if building website is not a part of the data science fiel I want to finish it. I will publish the link to the website as soon as I finish it as of right now I do not judge the website's beauty and finition to ba at the same level as the the codes that makes it work. hence my motivation to not publish it yet. Thanks for your understanding. 
+little disclamer
+The code is finished and the website function in local, nonetheless, the html code for the user interface is, in my taste, not good enought. Even if building website is not a part of the data science fiel I am dedicated to deliver a work of excellance. I will publish the link to the website as soon as I finish. Thanks for your understanding. 
 
 
 Before diving into the projects, you'll find a comprehensive list of the main libraries, APIs languages that have been used and a quick definition.
@@ -48,6 +49,13 @@ Before diving into the projects, you'll find a comprehensive list of the main li
 
 **Backtrader**
 
+**Crontab**
+
+**Semantic-UI**
+
+**Crontab**
+
+**trading View**
 </p>
   <br>
 </details>
