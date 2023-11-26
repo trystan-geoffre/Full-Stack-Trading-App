@@ -38,25 +38,25 @@ Before diving into the projects, you'll find a comprehensive list of the main li
 
   <h3>Python Libraries & APIs</h3>
   
-**SQLite3** Library permitting to use SQLite within python
+**SQLite3:** Library permitting to use SQLite within python
 
-**Alpaca_trade_api** API in python that permits to use alpaca's functions to be able to trade real-time on the market for free
+**Alpaca_trade_ap:i** API in python that permits to use alpaca's functions to be able to trade real-time on the market for free
 
 **yfinance (yahoo finance):** library that allow us to acces to financial data in real time for free
 
-**ta-lib** 
+**ta-lib:** 
 
-**FastAPI (Jinja2Templates)**
+**FastAPI (Jinja2Templates):**
 
-**Backtrader**
+**Backtrader:**
 
-**Crontab**
+**Crontab:**
 
-**Semantic-UI**
+**Semantic-UI:**
 
-**Crontab**
+**Crontab:**
 
-**trading View**
+**trading View:**
 </p>
   <br>
 </details>
