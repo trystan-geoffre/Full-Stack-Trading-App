@@ -16,12 +16,12 @@ I express my gratitude to these educators for providing excellent and free resou
 The code is finished and the website function in local, nonetheless, the html code for the user interface is not. Even if building website is not a part of the data science fiel I want to finish it. I will publish the link to the website as soon as I finish it as of right now I do not judge the website's beauty and finition to ba at the same level as the the codes that makes it work. hence my motivation to not publish it yet. Thanks for your understanding. 
 
 
-Before diving into the projects, you'll find a comprehensive list of the main libraries, languages that have been used and a quick definition.
+Before diving into the projects, you'll find a comprehensive list of the main libraries, APIs languages that have been used and a quick definition.
 
 <details>
-  <h2 align="center"> 📖 Libraries & Languages 📖 </h2>
+  <h2 align="center"> 📖 Libraries APIs & Languages 📖 </h2>
   
-  <summary> 📖 Libraries & Languages 📖</summary> 
+  <summary> 📖 Libraries APIs & Languages 📖</summary> 
 <p>
 
   <h3>Languages</h3>
@@ -34,15 +34,20 @@ Before diving into the projects, you'll find a comprehensive list of the main li
 
 **HTML:** Used to create the Trading app interface and functionalities.
 
-  <h3>Languages</h3>
+  <h3>Python Libraries & APIs</h3>
   
-**FNN (Feedforward Neural Network):** A basic neural network architecture where information travels in one direction, from the input layer through hidden layers to the output layer, without forming cycles.
+**SQLite3** Library permitting to use SQLite within python
 
-**RNN (Recurrent Neural Network):** A type of neural network designed for sequence tasks, where connections between nodes form directed cycles, allowing information persistence and handling sequential dependencies
+**Alpaca_trade_api** API in python that permits to use alpaca's functions to be able to trade real-time on the market for free
 
-**NLP (Natural Language Processing):** A field of artificial intelligence that focuses on the interaction between computers and human language, enabling machines to understand, interpret, and generate human-like text.
+**yfinance (yahoo finance):** library that allow us to acces to financial data in real time for free
 
-**LSTM (Long Short-Term Memory):** A type of recurrent neural network architecture designed to capture and remember long-term dependencies in sequential data, mitigating the vanishing gradient problem often encountered in standard RNNs.
+**ta-lib** 
+
+**FastAPI (Jinja2Templates)**
+
+**Backtrader**
+
 </p>
   <br>
 </details>
