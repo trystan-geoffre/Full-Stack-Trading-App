@@ -1,3 +1,67 @@
+<h1 align="center">Full Stack Trading App</h1>
+
+<br>
+
+Welcome to my repository dedicated to explain the construction of a Trading app!
+
+<br>
+
+<h2 align="center">🌅 Journey Highlights 🌅</h2>
+My initiation into the world of Deep Learning started with the enlightening 6.S191 MIT course by Alexander Amini. Building on this foundation, I expanded my knowledge by following the instructive courses curated by Josh Stamer. The hands-on experience in the practical application of Deep Learning with TensorFlow was facilitated by Aladdin Persson's tutorials, culminating in being certified TensorFlow Developer by Google.
+I express my gratitude to these educators for providing excellent and free resources to the community.
+
+<br>
+
+
+The code is finished and the website function in local, nonetheless, the html code for the user interface is not. Even if building website is not a part of the data science fiel I want to finish it. I will publish the link to the website as soon as I finish it as of right now I do not judge the website's beauty and finition to ba at the same level as the the codes that makes it work. hence my motivation to not publish it yet. Thanks for your understanding. 
+
+
+Before diving into the projects, you'll find a comprehensive list of the main libraries, languages that have been used and a quick definition.
+
+<details>
+  <h2 align="center"> 📖 Libraries & Languages 📖 </h2>
+  
+  <summary> 📖 Libraries & Languages 📖</summary> 
+<p>
+
+  <h3>Languages</h3>
+
+**Python:** Used to create the hole trading app, linking SQLite and HTML codes with the rest of it
+
+**SQLite** To create, maintain and dynamicly maintain a 5GB data base with 5 different tables with one of +35 millions rows
+
+11k stocks
+
+**HTML:** Used to create the Trading app interface and functionalities.
+
+  <h3>Languages</h3>
+  
+**FNN (Feedforward Neural Network):** A basic neural network architecture where information travels in one direction, from the input layer through hidden layers to the output layer, without forming cycles.
+
+**RNN (Recurrent Neural Network):** A type of neural network designed for sequence tasks, where connections between nodes form directed cycles, allowing information persistence and handling sequential dependencies
+
+**NLP (Natural Language Processing):** A field of artificial intelligence that focuses on the interaction between computers and human language, enabling machines to understand, interpret, and generate human-like text.
+
+**LSTM (Long Short-Term Memory):** A type of recurrent neural network architecture designed to capture and remember long-term dependencies in sequential data, mitigating the vanishing gradient problem often encountered in standard RNNs.
+</p>
+  <br>
+</details>
+
+<br>
+
+<h2 align="center">🔎 Repository Overview 🔍</h2>
+<br>
+This repository is a testament to .... the repository is divided in 5 parts:
+
+<br>
+
+
+
+
+^
+
+
+
 To initialize the "app.db" database using SQLite3, begin by executing the command "sqlite3 app.db" in the terminal, creating the initial database file.
 
 Afterwards, create a configuration file named "config.py" and input the necessary Alpaca API credentials (API_KEY, SECRET_KEY, BASE_URL), as well as the file location for your "app.db" (DB_FILE), and email configuration details (EMAIL_ADDRESS, EMAIL_PASSWORD, EMAIL_HOST, EMAIL_PORT).
