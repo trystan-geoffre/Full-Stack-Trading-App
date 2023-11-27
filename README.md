@@ -85,18 +85,22 @@ Before diving into the projects, you'll find a comprehensive list of the main li
 <h4>Setting Up the Database:</h4>
 To initiate the database creation process, first, generate the database named "app.db" using SQLite3. Execute the command "sqlite3 app.db" in the terminal to establish the initial database file. This step lays the foundation for subsequent configurations.
 
+ <br>
 
 <h4>Configuring Alpaca API, SQLite and Email:</h4>
 Following the database creation, proceed to set up a configuration file named "config.py." Enter essential Alpaca API credentials (API_KEY, SECRET_KEY, BASE_URL), define the file location for "app.db" (DB_FILE), and provide email configuration details (EMAIL_ADDRESS, EMAIL_PASSWORD, EMAIL_HOST, EMAIL_PORT).
 
+ <br>
 
 <h4>Database Initialization and Table Management:</h4>
 Utilize the scripts in this repository to manage the database. Begin with the "create_db" script  <a href=""> Code Link</a> to establish the five necessary tables. You also have drop_db <a href=""> Code Link</a> to drop all tables in app.db.
 
+ <br>
 
 <h4>Populating Stock Information:</h4>
 Execute the "populate_stocks.py" script <a href=""> Code Link</a> to populate the "stock" table with information for every stock, cryptocurrency, and asset available on Alpaca. The data includes the symbol/ticker, name, exchange, and a flag indicating whether shorting is permissible. Ensure that the data is successfully loaded using DB Browser for SQLite (or other), resulting in over 13,000 rows. To automatically add new stocks if there is any, create a Crontab code to run the script. I personally run it daily, after market closure.
 
+ <br>
 
 <h4>Fetching Historical Stock Prices:</h4>
 The "populate_prices" script <a href=""> Code Link</a>. downloads data for all tickers in the "stock" table in the "stock_price" table, a process that may take some time due to the substantial volume of data.  Since some Alpaca functionalities are restricted or no longer free, Yahoo Finance is used as an alternative for obtaining free, extensive historical data.The script also addresses variations in ticker names, ensuring a match with Yahoo Finance or dropping unmatched tickers in "stock". After completion, the "stock" table is populated with over 11,000 tickers, the "stock_price" table featuring daily open, close, high, low, volume, and date information. Additionally, in "stock_price" the script calculates the Simple Moving Average (SMA) for 20 and 50 days and the Relative Strength Index (RSI) for 14 days using the Ta-lib analysis library.
