@@ -23,7 +23,9 @@ The platform boasts 8 distinct trading strategies (4 for buying and 4 for shorti
 <h3>Trading Strategies Efficiency</h3>
 The trading strategies underwent two testing phases. Initially, a 24-day evaluation (October 3rd to 27th) focused solely on the opening range strategies, resulting in a nominal loss of 1.5%. 
 
-Following iterative adjustments and the incorporation of new trading strategies, a subsequent 20-day test spanning from October 27th to November 16th yielded a notable **7.6% profit over these 20days**. However, it's crucial to note that these strategies are yet to undergo evaluation over an extended period to comprehensively assess their long-term efficiency and robustness.
+Following iterative adjustments and the incorporation of new trading strategies, a subsequent 20-day test spanning from October 27th to November 16th yielded a notable **7.6% profit over these 20days**. 
+
+However, it's crucial to note that these strategies are yet to undergo evaluation over an extended period to comprehensively assess their long-term efficiency and robustness.
 
 ---
 
