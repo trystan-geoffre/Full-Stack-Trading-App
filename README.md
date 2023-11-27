@@ -28,15 +28,11 @@ Following iterative adjustments and the incorporation of new trading strategies,
 ---
 
 <h2 align="center">🔎 Repository Overview 🔍</h2>
-<br>
-This repository is a testament to .... the repository is divided in 5 parts:
 
 <br>
 
-
-Before diving into the projects, you'll find a comprehensive list of the main libraries, APIs languages that have been used and a quick definition.
+Before diving into the projects, you'll find a comprehensive list of the main libraries, APIs and languages that have been used and a quick definition.
 </p>
-
 
 <details>
   <h2 align="center"> 📖 Libraries APIs & Languages 📖 </h2>
