@@ -137,7 +137,7 @@ This Bollinger Bands Long code mirrors the Bollinger Bands Short, with the only 
 <details>
   <h2 align="center"> 🏹 Main code 🏹</h2>
   
-  <summary> Main code </summary> 
+  <summary> 🏹 Main code 🏹 </summary> 
 
   <p>
 This FastAPI application, run through Uvicorn, is a web-based stock analysis and trading platform. It utilizes SQLite for local data storage, Alpaca API for real-time stock data, and FastAPI for building the web interface. The application offers functionalities such as filtering stocks based on various criteria (e.g., new closing highs/lows, RSI overbought/oversold, above/below SMA), viewing detailed stock information, applying trading strategies, and monitoring orders. The routes handle HTTP requests, connect to the SQLite database to execute queries, and render HTML templates using Jinja2. Overall, the objective is to provide a user-friendly platform for stock analysis, strategy application, and order monitoring.
