@@ -90,7 +90,7 @@ To initiate the database creation process, first, generate the database named "a
 <h4>Configuring Alpaca API, SQLite and Email:</h4>
 Following the database creation, proceed to set up a configuration file named "config.py." Enter essential Alpaca API credentials (API_KEY, SECRET_KEY, BASE_URL), define the file location for "app.db" (DB_FILE), and provide email configuration details (EMAIL_ADDRESS, EMAIL_PASSWORD, EMAIL_HOST, EMAIL_PORT).
 
- <br>
+ 
 
 <h4>Database Initialization and Table Management:</h4>
 Utilize the scripts in this repository to manage the database. Begin with the "create_db" script  <a href=""> Code Link</a> to establish the five necessary tables. You also have drop_db <a href=""> Code Link</a> to drop all tables in app.db.
