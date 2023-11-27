@@ -16,6 +16,7 @@ Building the trading was a logique choice for me. I knew that I needed challenge
 
 The platform boasts 8 distinct trading strategies (4 for buying and 4 for shorting) applicable to over 11,000 different stocks, cryptocurrencies, and other assets. The list of tickers is updated daily, automated data download providing real-time updates on the website. Additionally, the website offers a TradingView chart.
 
+<br>
 
 <h3>Trading Strategies Efficiency</h3>
 The trading strategies underwent two testing phases. Initially, a 24-day evaluation (October 3rd to 27th) focused solely on the opening range strategies, resulting in a nominal loss of 1.5%. 
