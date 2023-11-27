@@ -12,7 +12,7 @@ Building the trading was a logique choice for me. I knew that I needed challenge
 
 <h1></h1>
 
-<h3>Quick platform review </h3>
+<h3>💫 Quick platform review 💫 </h3>
 
 The platform boasts 6 distinct trading strategies (3 for buying and 3 for shorting) applicable to over 11,000 different stocks, cryptocurrencies, and other assets. The list of tickers is updated daily, automated data download providing real-time updates on the website. Additionally, the website offers a TradingView chart.
 
@@ -20,7 +20,7 @@ The platform boasts 6 distinct trading strategies (3 for buying and 3 for shorti
 
 <br>
 
-<h3>Trading Strategies Efficiency</h3>
+<h3>📈 Trading Strategies Efficiency 📉</h3>
 The trading strategies underwent two testing phases on paper trading (no real money). Initially, a 24-day evaluation (October 3rd to 27th) focused solely on the opening range strategies, resulting in a nominal loss of 1.5%. 
 
 Following iterative adjustments and the incorporation of new trading strategies, a subsequent 20-day test spanning from October 27th to November 16th yielded a notable **7.6% profit over 20days**. 
@@ -79,9 +79,9 @@ Before diving into the projects, you'll find a comprehensive list of the main li
 <h1></h1>
 
 <details>
-  <h2 align="center"> DataBase </h2>
+  <h2 align="center">🌐 DataBase 🌐</h2>
   
-  <summary> DataBase </summary> 
+  <summary> 🌐 DataBase 🌐 </summary> 
 
   <p>
 <h4>Setting Up the Database:</h4>
@@ -110,9 +110,9 @@ The "populate_prices" script <a href=""> Code Link</a>. downloads data for all t
 <br>
 
 <details>
-  <h2 align="center"> Trading Strategies </h2>
+  <h2 align="center"> ♟️ Trading Strategies ♟️ </h2>
   
-  <summary> Trading Strategies </summary> 
+  <summary>♟️Trading Strategies♟️</summary> 
 
   <p>
 
@@ -135,9 +135,9 @@ This Bollinger Bands Long code mirrors the Bollinger Bands Short, with the only 
 <br>
 
 <details>
-  <h2 align="center"> Main code </h2>
+  <h2 align="center"> 🏹 Main code 🏹</h2>
   
-  <summary> </summary> 
+  <summary> Main code </summary> 
 
   <p>
 This FastAPI application, run through Uvicorn, is a web-based stock analysis and trading platform. It utilizes SQLite for local data storage, Alpaca API for real-time stock data, and FastAPI for building the web interface. The application offers functionalities such as filtering stocks based on various criteria (e.g., new closing highs/lows, RSI overbought/oversold, above/below SMA), viewing detailed stock information, applying trading strategies, and monitoring orders. The routes handle HTTP requests, connect to the SQLite database to execute queries, and render HTML templates using Jinja2. Overall, the objective is to provide a user-friendly platform for stock analysis, strategy application, and order monitoring.
@@ -150,9 +150,9 @@ This FastAPI application, run through Uvicorn, is a web-based stock analysis and
 <br>
 
 <details>
-  <h2 align="center"> Templates HTML </h2>
+  <h2 align="center">🔰 Templates HTML 🔰</h2>
   
-  <summary> </summary> 
+  <summary> 🔰 Templates HTML 🔰</summary> 
 
   <p>
 
@@ -165,9 +165,9 @@ This FastAPI application, run through Uvicorn, is a web-based stock analysis and
 <br>
 
 <details>
-  <h2 align="center"> Backtesting </h2>
+  <h2 align="center">🎯 Backtesting 🎯</h2>
   
-  <summary> </summary> 
+  <summary> 🎯 Backtesting 🎯</summary> 
 
   <p>
 
