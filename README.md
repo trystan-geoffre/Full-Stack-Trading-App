@@ -10,15 +10,20 @@ Welcome to my repository dedicated to explain the construction of a Trading Plar
 <p>
 Building the trading was a logique choice for me. I knew that I needed challenged on building, maintening dinamicly quering joining tables for well sized database. Plus I'm an enthousiast of finance and especially trading. Having previously developed a trading AI with TensorFlow (link to the project), the logical next step was to create a trading platform based on a custom database. As of now, the database consisting of five different tables, one of which has over 35 million rows.
 
+---
+
+<h2 align="center">🌅 Quick platform review 🌅</h2>
+
 The platform boasts 8 distinct trading strategies (4 for buying and 4 for shorting) applicable to over 11,000 different stocks, cryptocurrencies, and other assets. The list of tickers is updated daily, automated data download providing real-time updates on the website. Additionally, the website offers a TradingView chart.
 
-<h3>Trading Strategies Efficiency:</h3>
+<h4 aligne = center>Trading Strategies Efficiency</h4>
 The trading strategies underwent two testing phases. Initially, a 24-day evaluation (October 3rd to 27th) focused solely on the opening range strategies, resulting in a nominal loss of 1.5%. 
 
 Following iterative adjustments and the incorporation of new trading strategies, a subsequent 20-day test spanning from October 27th to November 16th yielded a notable **7.6% profit over these 20days**. However, it's crucial to note that these strategies are yet to undergo evaluation over an extended period to comprehensively assess their long-term efficiency and robustness.
 
 *The code is complete, and the website functions locally. However, I acknowledge that the HTML code for the user interface does not meet the standards of a well-finished website. Despite website development not being my primary focus, I am committed to delivering quality work. I will share the link to the website as soon as I complete the necessary improvements. Thank you for your understanding*
 
+---
 
 Before diving into the projects, you'll find a comprehensive list of the main libraries, APIs languages that have been used and a quick definition.
 </p>
