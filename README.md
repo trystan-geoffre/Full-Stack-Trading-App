@@ -25,9 +25,14 @@ The trading strategies underwent two testing phases. Initially, a 24-day evaluat
 
 Following iterative adjustments and the incorporation of new trading strategies, a subsequent 20-day test spanning from October 27th to November 16th yielded a notable **7.6% profit over these 20days**. However, it's crucial to note that these strategies are yet to undergo evaluation over an extended period to comprehensively assess their long-term efficiency and robustness.
 
-*The code is complete, and the website functions locally. However, I acknowledge that the HTML code for the user interface does not meet the standards of a well-finished website. Despite website development not being my primary focus, I am committed to delivering quality work. I will share the link to the website as soon as I complete the necessary improvements. Thank you for your understanding*
-
 ---
+
+<h2 align="center">🔎 Repository Overview 🔍</h2>
+<br>
+This repository is a testament to .... the repository is divided in 5 parts:
+
+<br>
+
 
 Before diving into the projects, you'll find a comprehensive list of the main libraries, APIs languages that have been used and a quick definition.
 </p>
@@ -73,16 +78,7 @@ Before diving into the projects, you'll find a comprehensive list of the main li
 
 <br>
 
-<h2 align="center">🔎 Repository Overview 🔍</h2>
-<br>
-This repository is a testament to .... the repository is divided in 5 parts:
 
-<br>
-
-
-
-
-^
 
 
 
