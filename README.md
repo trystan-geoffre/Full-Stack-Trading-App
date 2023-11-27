@@ -8,12 +8,16 @@ Welcome to my repository dedicated to explain the construction of a Trading Plar
 
 <h2 align="center">🌅 Journey Highlights 🌅</h2>
 <p>
-Building the trading was a logique choice for me. I knew that I needed a challenge to showcase my skills in building, maintening dinamicly quering joining tables for well sized database. Plus I'm an enthousiast of finance and especially trading. I had already built a trading AI with TensorFlow so the next step was to build a trading platform based on my own database and having multiple trading strategy.
-When I'm typing this code the database weight 5GB, has 5 different tables with one with more than 35millions rows. 
-The platform has 8 different strategy (4 buying and 4 shorting) that can be used for 11 000 different stocks, cryptos... tockers. The list of tickers are adjusted everyday, the data are added to the database and shownn in real time on the website. Plus on the website you have access to a trading view chart, with every toulls available.
+Building the trading was a logique choice for me. I knew that I needed challenged on building, maintening dinamicly quering joining tables for well sized database. Plus I'm an enthousiast of finance and especially trading. Having previously developed a trading AI with TensorFlow (link to the project), the logical next step was to create a trading platform based on a custom database. As of now, the database consisting of five different tables, one of which has over 35 million rows.
 
-little disclamer
-The code is finished and the website function in local, nonetheless, the html code for the user interface is, in my taste, not good enought. Even if building website is not a part of the data science fiel I am dedicated to deliver a work of excellance. I will publish the link to the website as soon as I finish. Thanks for your understanding. 
+The platform boasts 8 distinct trading strategies (4 for buying and 4 for shorting) applicable to over 11,000 different stocks, cryptocurrencies, and other assets. The list of tickers is updated daily, automated data download providing real-time updates on the website. Additionally, the website offers a TradingView chart.
+
+<h3>Trading Strategies Efficiency:</h3>
+The trading strategies underwent two testing phases. Initially, a 24-day evaluation (October 3rd to 27th) focused solely on the opening range strategies, resulting in a nominal loss of 1.5%. 
+
+Following iterative adjustments and the incorporation of new trading strategies, a subsequent 20-day test spanning from October 27th to November 16th yielded a notable **7.6% profit over these 20days**. However, it's crucial to note that these strategies are yet to undergo evaluation over an extended period to comprehensively assess their long-term efficiency and robustness.
+
+*The code is complete, and the website functions locally. However, I acknowledge that the HTML code for the user interface does not meet the standards of a well-finished website. Despite website development not being my primary focus, I am committed to delivering quality work. I will share the link to the website as soon as I complete the necessary improvements. Thank you for your understanding*
 
 
 Before diving into the projects, you'll find a comprehensive list of the main libraries, APIs languages that have been used and a quick definition.
@@ -28,35 +32,32 @@ Before diving into the projects, you'll find a comprehensive list of the main li
 
   <h3>Languages</h3>
 
-**Python:** Used to create the hole trading app, linking SQLite and HTML codes with the rest of it
+**Python:** Main language used to deliver every functionalities linked to trading and data downloading
 
-**SQLite** To create, maintain and dynamicly maintain a 5GB data base with 5 different tables with one of +35 millions rows
+**SQLit:e** To create, maintain and dynamicly maintain a 5GB data base with 5 different tables and +35 millions rows
 
-11k stocks
-
-**HTML:** Used to create the Trading app interface and functionalities.
+**HTML:** Used to create the Trading platform interface and website functionalities.
 
   <h3>Python Libraries & APIs</h3>
   
-**SQLite3:** Library permitting to use SQLite within python
+**SQLite3:** Python library that enables the use of SQLite within PythonLibrary permitting to use SQLite within python
 
-**Alpaca_trade_ap:i** API in python that permits to use alpaca's functions to be able to trade real-time on the market for free
+**Alpaca_trade_ap:i** Python API that allows the utilization of Alpaca's functions, enabling real-time market trading for free, with a focus on algorithmic trading strategies.
 
-**yfinance (yahoo finance):** library that allow us to acces to financial data in real time for free
+**ta-lib:** A technical analysis library in Python, providing tools and functions for analyzing financial markets and making informed trading decisions based on technical indicators.
 
-**ta-lib:** 
+**Backtrader:** Python framework for developing and testing trading strategies, offering extensive functionality for backtesting and optimizing strategies before deploying them in live markets.
 
-**FastAPI (Jinja2Templates):**
+**FastAPI (Jinja2Templates):** FastAPI is a modern, fast web framework for building APIs with Python, and Jinja2Templates is a template engine used for creating dynamic HTML templates in conjunction with FastAPI.
 
-**Backtrader:**
+**Semantic-UI:** A user interface framework that utilizes HTML to create a responsive and visually appealing design for the trading platform.
 
-**Crontab:**
+**Crontab:** A time-based job scheduler, used in this context to schedule and automate periodic tasks within the trading platform.
 
-**Semantic-UI:**
+**yfinance (yahoo finance):** Python library that grants access to real-time financial data from Yahoo Finance, facilitating the retrieval of market information for various assets at no cost.
 
-**Crontab:**
+**trading View:** A platform that provides advanced charting tools and analysis for financial markets, often integrated into trading applications to offer users a comprehensive view of market data and trends.
 
-**trading View:**
 </p>
   <br>
 </details>
