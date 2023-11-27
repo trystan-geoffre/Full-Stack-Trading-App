@@ -110,9 +110,9 @@ The "populate_prices" script <a href=""> Code Link</a>. downloads data for all t
 <br>
 
 <details>
-  <h2 align="center"> Traiding Strategies </h2>
+  <h2 align="center"> Trading Strategies </h2>
   
-  <summary> Traiding Strategies </summary> 
+  <summary> Trading Strategies </summary> 
 
   <p>
 
