@@ -18,7 +18,7 @@ The platform boasts 8 distinct trading strategies (4 for buying and 4 for shorti
 
 *The code is complete, and the website functions locally. However, I acknowledge that the HTML code for the user interface does not meet the standards of a well-finished website. Despite website development not being my primary focus, I am committed to delivering quality work. I will share the link to the website as soon as I complete the necessary improvements. Thank you for your understanding*
 
-<br><br>
+<br>
 
 <h3>Trading Strategies Efficiency</h3>
 The trading strategies underwent two testing phases. Initially, a 24-day evaluation (October 3rd to 27th) focused solely on the opening range strategies, resulting in a nominal loss of 1.5%. 
