@@ -72,8 +72,6 @@ Before diving into the projects, you'll find a comprehensive list of the main li
   <br>
 </details>
 
-<br>
-
 <h1></h1>
 
 
