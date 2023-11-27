@@ -8,7 +8,7 @@ Welcome to my repository dedicated to explain the construction of a Trading Plar
 
 <h2 align="center">🌅 Journey Highlights 🌅</h2>
 <p>
-Building the trading was a logique choice for me. I knew that I needed challenged on building, maintening dinamicly quering joining tables for well sized database. Plus I'm an enthousiast of finance and especially trading. Having previously developed a trading AI with TensorFlow (link to the project), the logical next step was to create a trading platform based on a custom database. As of now, the database consisting of five different tables, one of which has over 35 million rows.
+Building the trading was a logique choice for me. I knew that I needed challenged on building, maintening   a dynamic database. Having previously developed a trading AI with TensorFlow (link to the project), the logical next step was to create an entire trading environment based on a custom database. As of now, the database consisting of five different tables, one of which has over 35 million rows.
 
 <h1></h1>
 
