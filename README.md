@@ -23,7 +23,7 @@ The platform boasts 8 distinct trading strategies (4 for buying and 4 for shorti
 <h3>Trading Strategies Efficiency</h3>
 The trading strategies underwent two testing phases on paper trading (no real money). Initially, a 24-day evaluation (October 3rd to 27th) focused solely on the opening range strategies, resulting in a nominal loss of 1.5%. 
 
-Following iterative adjustments and the incorporation of new trading strategies, a subsequent 20-day test spanning from October 27th to November 16th yielded a notable **7.6% profit over these 20days**. 
+Following iterative adjustments and the incorporation of new trading strategies, a subsequent 20-day test spanning from October 27th to November 16th yielded a notable **7.6% profit over 20days**. 
 
 However, it's crucial to note that these strategies are yet to undergo evaluation over an extended period to comprehensively assess their long-term efficiency and robustness.
 
@@ -44,9 +44,9 @@ Before diving into the projects, you'll find a comprehensive list of the main li
 
   <h3>Languages</h3>
 
-**Python:** Main language used to deliver every functionalities linked to trading and data downloading
+**Python:** Language used to structure the platform functionalities.
 
-**SQLit:e** To create, maintain and dynamicly maintain a 5GB data base with 5 different tables and +35 millions rows
+**SQLite:** To create, maintain a 5GB database with 5 different tables and +35 millions rows.
 
 **HTML:** Used to create the Trading platform interface and website functionalities.
 
@@ -54,7 +54,7 @@ Before diving into the projects, you'll find a comprehensive list of the main li
   
 **SQLite3:** Python library that enables the use of SQLite within PythonLibrary permitting to use SQLite within python
 
-**Alpaca_trade_ap:i** Python API that allows the utilization of Alpaca's functions, enabling real-time market trading for free, with a focus on algorithmic trading strategies.
+**Alpaca_trade_api:** Python API that allows the utilization of Alpaca's functions, enabling real-time market trading for free, with a focus on algorithmic trading strategies.
 
 **ta-lib:** A technical analysis library in Python, providing tools and functions for analyzing financial markets and making informed trading decisions based on technical indicators.
 
@@ -76,15 +76,95 @@ Before diving into the projects, you'll find a comprehensive list of the main li
 
 <h1></h1>
 
+<details>
+  <h2 align="center"> DataBase </h2>
+  
+  <summary> </summary> 
+
+  <p>
+To initiate the database creation process, first, generate the database named "app.db" using SQLite3. Execute the command "sqlite3 app.db" in the terminal to establish the initial database file. This step lays the foundation for subsequent configurations.
+
+Following the database creation, proceed to set up a configuration file named "config.py." Enter essential Alpaca API credentials (API_KEY, SECRET_KEY, BASE_URL), define the file location for "app.db" (DB_FILE), and provide email configuration details (EMAIL_ADDRESS, EMAIL_PASSWORD, EMAIL_HOST, EMAIL_PORT).
+
+Utilize the scripts in this repository to manage the database. Begin with the "create_db" script  <a href=""> Code Link</a> to establish the five necessary tables. You also have drop_db <a href=""> Code Link</a> to drop all tables in app.db.
+
+Execute the "populate_stocks.py" script <a href=""> Code Link</a> to populate the "stock" table with information for every stock, cryptocurrency, and asset available on Alpaca. The data includes the symbol/ticker, name, exchange, and a flag indicating whether shorting is permissible. Ensure that the data is successfully loaded using DB Browser for SQLite (or other), resulting in over 13,000 rows. To automatically add new stocks if there is any, create a Crontab code to run the script. I personally run it daily, after market closure.
+
+**Fetching Historical Stock Prices:** 
+The "populate_prices" script <a href=""> Code Link</a>. downloads data for all tickers in the "stock" table in the "stock_price" table, a process that may take some time due to the substantial volume of data.  Since some Alpaca functionalities are restricted or no longer free, Yahoo Finance is used as an alternative for obtaining free, extensive historical data.The script also addresses variations in ticker names, ensuring a match with Yahoo Finance or dropping unmatched tickers in "stock". After completion, the "stock" table is populated with over 11,000 tickers, the "stock_price" table featuring daily open, close, high, low, volume, and date information. Additionally, in "stock_price" the script calculates the Simple Moving Average (SMA) for 20 and 50 days and the Relative Strength Index (RSI) for 14 days using the Ta-lib analysis library.
+
+<a href=""> Code Link</a>
+  </p>
+  <br>
+</details>
+
+<br>
+
+<details>
+  <h2 align="center"> Traiding Strategies </h2>
+  
+  <summary> </summary> 
+
+  <p>
 
 
-To initialize the "app.db" database using SQLite3, begin by executing the command "sqlite3 app.db" in the terminal, creating the initial database file.
+<a href=""> Code Link</a>
+  </p>
+  <br>
+</details>
 
-Afterwards, create a configuration file named "config.py" and input the necessary Alpaca API credentials (API_KEY, SECRET_KEY, BASE_URL), as well as the file location for your "app.db" (DB_FILE), and email configuration details (EMAIL_ADDRESS, EMAIL_PASSWORD, EMAIL_HOST, EMAIL_PORT).
+<br>
 
-Proceed to set up the required tables by executing the "create_db.py" script. This script encapsulates the code to create the five essential tables for the Full-Stack application. Running this command executes the Python script, establishing the foundational tables within the "app.db" database, laying the groundwork for the Full-Stack application.
+<details>
+  <h2 align="center"> Main code </h2>
+  
+  <summary> </summary> 
 
-Finally, utilize "populate_stocks.py" to populate the stock table with every stock available on Alpaca.
+  <p>
+
+
+<a href=""> Code Link</a>
+  </p>
+  <br>
+</details>
+
+<br>
+
+<details>
+  <h2 align="center"> Templates HTML </h2>
+  
+  <summary> </summary> 
+
+  <p>
+
+
+<a href=""> Code Link</a>
+  </p>
+  <br>
+</details>
+
+<br>
+
+<details>
+  <h2 align="center"> Backtesting </h2>
+  
+  <summary> </summary> 
+
+  <p>
+
+
+<a href=""> Code Link</a>
+  </p>
+  <br>
+</details>
+
+<br>
+
+
+
+
+
+
 
 #######populate prices
 This code is a Python script that connects to an SQLite database and updates stock price information, including technical indicators, by fetching data from Yahoo Finance. The primary steps are as follows:
