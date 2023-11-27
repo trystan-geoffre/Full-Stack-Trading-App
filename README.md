@@ -119,10 +119,15 @@ The "populate_prices" script <a href=""> Code Link</a>. downloads data for all t
 <h4>Opening Range Breakdown:</h4>
 This Python script is designed to automate the execution of a trading strategy, specifically the "opening range breakdown" strategy, using Alpaca API for real-time trading. The script connects to an SQLite database to retrieve stocks associated with the chosen strategy, then checks if the stock has already an order filled. For each stock, it downloads 15-minute interval historical data from Yahoo Finance, calculates the opening range, and determines if a breakdown has occurred after the opening range. If a breakout is detected and there is no existing filled order for the stock, a short order is placed on Alpaca with specified limit, take-profit, and stop-loss prices. The script logs messages for each action and is configured to run for a defined historical data range. <a href=""> Code Link</a>
 
-<h4>Opening Range Breakdoout:</h4>
-The code for the opening range breakout is similar to the opening range breakdown, with the key difference being the calculation of a breakout. Also, in this context, the code is designed to execute a buy order with a trailing stop instead of a traditional stop-loss and take-profit approach. The trailing stop dynamically adjusts the stop price based on the stock's price movement, enhancing adaptability to market fluctuations. Additionally, the bracket order setup incorporates a limit price, offering control over the maximum price paid for the stock during the buy order execution <a href=""> Code Link</a>
+<h4>Opening Range Breakout:</h4>
+The Opening Range Breakout code is similar to the Opening Range Breakdown, with the key difference being the calculation of a breakout. Also, in this context, the code is designed to execute a buy order with a trailing stop instead of a traditional stop-loss and take-profit approach. The trailing stop dynamically adjusts the stop price based on the stock's price movement, enhancing adaptability to market fluctuations. Additionally, the bracket order setup incorporates a limit price, offering control over the maximum price paid for the stock during the buy order execution <a href=""> Code Link</a>
 
-<a href=""> Code Link</a>
+<h4>Bollinger Bands Short:</h4>
+This Python code is a trading script that utilizes the Alpaca API and Yahoo Finance to implement a Bollinger Bands strategy for a list of stocks. The script connects to a SQLite database, queries for stocks associated with the "bollinger_bands" strategy, and checks for existing orders. It then downloads historical price data, calculates Bollinger Bands, and executes a short order when specific trading conditions are met, incorporating limit prices, take-profit, and stop-loss parameters. The script is designed to automate trading decisions based on the Bollinger Bands indicator, providing a systematic approach to managing short positions in the stock market.
+
+<h4>Bollinger Bands Long:</h4>
+This Bollinger Bands Long code mirrors the Bollinger Bands Short, with the only difference being in the calculation of upward movement and the execution of a buy order instead of a short order.<a href=""> Code Link</a>
+
   </p>
   <br>
 </details>
@@ -135,7 +140,7 @@ The code for the opening range breakout is similar to the opening range breakdow
   <summary> </summary> 
 
   <p>
-
+This FastAPI application, run through Uvicorn, is a web-based stock analysis and trading platform. It utilizes SQLite for local data storage, Alpaca API for real-time stock data, and FastAPI for building the web interface. The application offers functionalities such as filtering stocks based on various criteria (e.g., new closing highs/lows, RSI overbought/oversold, above/below SMA), viewing detailed stock information, applying trading strategies, and monitoring orders. The routes handle HTTP requests, connect to the SQLite database to execute queries, and render HTML templates using Jinja2. Overall, the objective is to provide a user-friendly platform for stock analysis, strategy application, and order monitoring.
 
 <a href=""> Code Link</a>
   </p>
@@ -173,44 +178,3 @@ The code for the opening range breakout is similar to the opening range breakdow
 </details>
 
 <br>
-
-
-
-
-
-
-
-#Main
-This FastAPI application, run through Uvicorn, is a web-based stock analysis and trading platform. It utilizes SQLite for local data storage, Alpaca API for real-time stock data, and FastAPI for building the web interface. The application offers functionalities such as filtering stocks based on various criteria (e.g., new closing highs/lows, RSI overbought/oversold, above/below SMA), viewing detailed stock information, applying trading strategies, and monitoring orders. The routes handle HTTP requests, connect to the SQLite database to execute queries, and render HTML templates using Jinja2. Overall, the objective is to provide a user-friendly platform for stock analysis, strategy application, and order monitoring.
-
-
-
-
-#populate minute bars
-This Python script performs the following operations:
-
-Import Libraries:
-Imports necessary libraries including configuration parameters, date handling, SQLite for database operations, Yahoo Finance API for stock data, Pandas for data manipulation, and CSV for reading a CSV file.
-Get Date Range:
-Retrieves the current date and sets a start date 29 days before that. This date range is used for fetching historical stock data.
-Connect to SQLite Database:
-Establishes a connection to the SQLite database using parameters from the configuration file.
-Read Stock Symbols from CSV:
-Reads stock symbols from a CSV file named 'minute_stocks.csv' and stores them in a list. Initializes an empty dictionary to store stock IDs.
-Fetch Stock Information from Database:
-Retrieves stock information, including Yahoo Finance symbols and IDs, from the database. Stores this information in a dictionary for easy access.
-Fetch Historical Data for Each Stock:
-For each stock symbol, fetches minute bars for a specified date range, resamples the data to 1-minute intervals, and inserts it into the 'stock_price_minute' table in the database.
-Commit and Close Database Connection:
-Commits the changes to the database and closes the connection.
-In summary, this script automates the process of fetching minute-level historical stock price data from Yahoo Finance for a list of stocks, resampling the data, and storing it in an SQLite database.
-
-
-
-
-
-
-
-
-
-HTML
