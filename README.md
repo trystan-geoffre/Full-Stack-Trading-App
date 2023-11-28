@@ -143,6 +143,11 @@ This Python code is a trading script that utilizes the Alpaca API and Yahoo Fina
 <h4>Bollinger Bands Long:</h4>
 This Bollinger Bands Long code mirrors the Bollinger Bands Short, with the only difference being in the calculation of upward movement and the execution of a buy order instead of a short order.<a href="https://github.com/trystan-geoffre/Full-Stack-Trading-App/blob/master2/bollinger_bands_long.py"> Code Link</a>
 
+To automatically execute the Bollinger Bands and Opening Range Breakout/Down strategies, I utilize Crontab. These scripts are scheduled to run every minute exclusively during the trading hours on trading days. This ensures that the strategies are consistently applied within the active market periods.
+
+<h4>Daily Close:</h4>
+This script is designed to automatically close all stock positions at the conclusion of the trading day. To automate its execution, you can implement a Crontab code. I typically schedule it to run 30 minutes before the market closes. The script begins by retrieving and canceling any active sell orders. Subsequently, it proceeds to close out all existing stock positions.
+<a href="https://github.com/trystan-geoffre/Full-Stack-Trading-App/blob/master2/daily_close.py"> Code Link</a>
   </p>
   <br>
 </details>
