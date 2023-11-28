@@ -44,45 +44,45 @@ Before diving into the projects, you'll find a comprehensive list of the main li
 
   <h3>Languages</h3>
 
-<h4> **Python:** </h4>
+<h4> Python: </h4>
 Language used to structure the platform functionalities.
 
-<h4> **SQLite:** </h4>
+<h4> SQLite: </h4>
 To create, maintain a 5GB database with 5 different tables and +35 millions rows.
 
-<h4> **HTML:**</h4>
+<h4> HTML: </h4>
 Used to create the Trading platform interface and website functionalities.
 
   <h3>Python Libraries & APIs</h3>
   
-<h4> **SQLite3:** </h4>
+<h4> SQLite3: </h4>
 Python library that enables the use of SQLite within PythonLibrary permitting to use SQLite within python
 
-<h4> **Alpaca_trade_api:** </h4>
+<h4> Alpaca_trade_api: </h4>
 Python API that allows the utilization of Alpaca's functions, enabling real-time market trading for free, with a focus on algorithmic trading strategies.
 
-<h4> **ta-lib:** </h4>
+<h4> Ta-lib: </h4>
 A technical analysis library in Python, providing tools and functions for analyzing financial markets and making informed trading decisions based on technical indicators.
 
-<h4> **Backtrader:** </h4>
+<h4> Backtrader: </h4>
 Python framework for developing and testing trading strategies, offering extensive functionality for backtesting and optimizing strategies before deploying them in live markets.
 
-<h4> **FastAPI (Jinja2Templates):** </h4>
+<h4> FastAPI (Jinja2Templates): </h4>
 FastAPI is a modern, fast web framework for building APIs with Python, and Jinja2Templates is a template engine used for creating dynamic HTML templates in conjunction with FastAPI.
 
-<h4> **Uvicorn:** </h4>Serves as a lightweight and efficient way to run asynchronous web applications written in Python. It provides a fast and scalable solution for deploying and managing web servers
+<h4> Uvicorn: </h4>Serves as a lightweight and efficient way to run asynchronous web applications written in Python. It provides a fast and scalable solution for deploying and managing web servers
 
 
-<h4> **Semantic-UI:** </h4>
+<h4> Semantic-UI: </h4>
 A user interface framework that utilizes HTML to create a responsive and visually appealing design for the trading platform.
 
-<h4> **Crontab:** </h4>
+<h4> Crontab: </h4>
 A time-based job scheduler, used in this context to schedule and automate periodic tasks within the trading platform.
 
-<h4> **yfinance (yahoo finance):** </h4>
+<h4> Yfinance (yahoo finance): </h4>
 Python library that grants access to real-time financial data from Yahoo Finance, facilitating the retrieval of market information for various assets at no cost.
 
-<h4> **trading View:** </h4>
+<h4> Trading View: </h4>
 A platform that provides advanced charting tools and analysis for financial markets, often integrated into trading applications to offer users a comprehensive view of market data and trends.
 
 </p>
