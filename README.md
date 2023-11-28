@@ -222,3 +222,5 @@ This Python script imports necessary libraries and connects to an SQLite databas
 </details>
 
 <br>
+
+This marks the conclusion of the repository on a Full Stack Trading App. For those interested in exploring another complex project within the realm of Trading, I would invite you to visit the repository <a href="https://github.com/trystan-geoffre/Trading-AI-TensorFlow/tree/master"> Trading AI utilizing TensorFlow</a> to witness the application of Deep Learning in stock prediction.
