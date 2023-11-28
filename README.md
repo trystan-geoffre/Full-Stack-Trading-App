@@ -151,14 +151,32 @@ To launch the website locally, execute the command "uvicorn main:app --reload" i
 <br>
 
 <details>
-  <h2 align="center">🔰 Templates HTML 🔰</h2>
+  <h2 align="center">🔰 Templates HTML (work in progress) 🔰</h2>
   
   <summary> 🔰 Templates HTML 🔰</summary> 
 
   <p>
+<h4>Layout:</h4>
+This HTML code defines a basic web page structure for a stocks-related application. It includes a navigation menu with links to the "Stocks," "Strategies," and "Order History" sections, and a "Logout" option on the right side. The content of the page is expected to be filled dynamically, allowing for flexible rendering based on specific sections or views. The page is styled using the Semantic UI library.<a href="https://github.com/trystan-geoffre/Full-Stack-Trading-App/blob/master2/templates%20html/layout.html"> Code Link</a>
 
+<h4>Index:</h4>
+This HTML template, extending a base layout, is designed for rendering a dynamic stock list page. It includes a form with a dropdown menu allowing users to filter stocks based on various criteria such as new closing highs/lows, RSI (Relative Strength Index) overbought/oversold, and positions relative to SMA (Simple Moving Average) values. The template displays a table with stock details, including symbol, name, price, RSI 14, SMA 20, and SMA 50, dynamically populated with data fetched from the server. The table entries link to individual stock detail pages. <a href="https://github.com/trystan-geoffre/Full-Stack-Trading-App/blob/master2/templates%20html/index.html"> Code Link</a>
 
-<a href=""> Code Link</a>
+<h4>Stock detail:</h4>
+This HTML template, extending a base layout, is designed for rendering individual stock detail pages. It includes a heading displaying the stock's name and symbol, a TradingView widget for visualizing stock data, a form allowing users to apply trading strategies to the stock, and a table displaying historical price information. The TradingView widget dynamically fetches and displays real-time stock data, and the form enables users to apply various strategies to the selected stock. The historical price table presents key data such as open, high, low, close, and volume for each date. 
+<a href="https://github.com/trystan-geoffre/Full-Stack-Trading-App/blob/master2/templates%20html/stock_detail.html"> Code Link</a>
+
+<h4>Strategies:</h4>
+This HTML template, extending a base layout, is designed for rendering a page that displays a list of available trading strategies. It includes a heading "Strategies" and a table with each row representing a strategy. Each strategy is a clickable link leading to a detailed view of that specific strategy.
+<a href="https://github.com/trystan-geoffre/Full-Stack-Trading-App/blob/master2/templates%20html/strategies.html"> Code Link</a>
+
+<h4>Strategy:</h4>
+This HTML template, extending a base layout, is designed for rendering a page that displays a list of stocks associated with a specific trading strategy. It includes a heading that navigates back to the main stocks page, indicating the selected strategy's name. The table below lists each stock's symbol and name.
+<a href="https://github.com/trystan-geoffre/Full-Stack-Trading-App/blob/master2/templates%20html/strategy.html"> Code Link</a>
+
+<h4>Orders:</h4>
+This HTML template, extending a base layout, is designed for rendering a page that displays a list of trading orders. It includes a heading "Orders" and a table with each row representing an order. The table provides details such as the order creation timestamp, side (buy/sell), quantity, symbol, filled price, and order status. 
+<a href="https://github.com/trystan-geoffre/Full-Stack-Trading-App/blob/master2/templates%20html/orders.html"> Code Link</a>
   </p>
   <br>
 </details>
