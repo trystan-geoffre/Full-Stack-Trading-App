@@ -111,7 +111,7 @@ Utilize the scripts in this repository to manage the database. Begin with the "c
 
 
 <h4>Populating Stock Information:</h4>
-Execute the "populate_stocks.py" script <a href="https://github.com/trystan-geoffre/Full-Stack-Trading-App/blob/master2/populate_stocks.py"> Code Link</a> to populate the "stock" table with information for every stock, cryptocurrency, and asset available on Alpaca. The data includes the symbol/ticker, name, exchange, and a flag indicating whether shorting is permissible. Ensure that the data is successfully loaded using DB Browser for SQLite (or other), resulting in over 13,000 rows. To automatically add new stocks if there is any, create a Crontab code to run the script. I personally run it daily, after market closure.
+Execute the "populate_stocks.py" script <a href="https://github.com/trystan-geoffre/Full-Stack-Trading-App/blob/master2/populate_stocks.py"> Code Link</a> to populate the "stock" table with information for every stock, cryptocurrency, and asset available on Alpaca. The data includes the symbol/ticker, name, exchange, and a flag indicating whether shorting is permissible. Ensure that the data is successfully loaded using DB Browser for SQLite (or other), resulting in over 13,000 rows. To automatically add new stocks if there is any, create a <a href="https://crontab.guru">Crontab</a> code to run the script. I personally run it daily, after market closure.
 
 
 <h4>Fetching Historical Stock Prices:</h4>
