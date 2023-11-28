@@ -8,7 +8,7 @@ Welcome to my repository dedicated to explain the construction of a Trading Plar
 
 <h2 align="center">🌅 Journey Highlights 🌅</h2>
 <p>
-Building the trading was a logique choice for me. I knew that I needed challenged on building, maintening   a dynamic database. Having previously developed a trading AI with TensorFlow <a href="">(Project Link)</a>, the logical next step was to create an entire trading environment based on a custom database. As of now, the database consisting of five different tables, one of which has over 35 million rows.
+Building the trading was a logique choice for me. I knew that I needed challenged on building, maintening   a dynamic database. Having previously developed a Trading AI with TensorFlow <a href="https://github.com/trystan-geoffre/Trading-AI-TensorFlow/tree/master">(Project Link)</a>, the logical next step was to create an entire trading environment based on a custom database. As of now, the database consisting of five different tables, one of which has over 35 million rows.
   I would like to express my gratitude to Part-Time Larry for providing essential concepts and foundations that facilitated the construction of this platform.
 
 <h1></h1>
