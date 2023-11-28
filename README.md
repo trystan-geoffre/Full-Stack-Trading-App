@@ -129,6 +129,7 @@ The "populate_prices" script <a href="https://github.com/trystan-geoffre/Full-St
   <summary>♟️Trading Strategies♟️</summary> 
 
   <p>
+The helpers.py code sets the amount to invest in each trade. You are encouraged to modify this amount according to your preferences or requirements. <a href="https://github.com/trystan-geoffre/Full-Stack-Trading-App/blob/master2/helpers.py"> Code Link</a> 
 
 <h4>Opening Range Breakdown:</h4>
 This Python script is designed to automate the execution of a trading strategy, specifically the "opening range breakdown" strategy, using Alpaca API for real-time trading. The script connects to an SQLite database to retrieve stocks associated with the chosen strategy, then checks if the stock has already an order filled. For each stock, it downloads 15-minute interval historical data from Yahoo Finance, calculates the opening range, and determines if a breakdown has occurred after the opening range. If a breakout is detected and there is no existing filled order for the stock, a short order is placed on Alpaca with specified limit, take-profit, and stop-loss prices. The script logs messages for each action and is configured to run for a defined historical data range. <a href="https://github.com/trystan-geoffre/Full-Stack-Trading-App/blob/master2/opening_range_breakdown.py"> Code Link</a>
@@ -203,11 +204,14 @@ This HTML template, extending a base layout, is designed for rendering a page th
   <summary> 🎯 Backtesting 🎯</summary> 
 
   <p>
-You can find the Stocks' tickers I have used for the Backtesting in minute_stocks.csv  <a href=""> Code Link</a>
+You can find the Stocks' tickers I have used for the Backtesting in minute_stocks.csv  <a href="https://github.com/trystan-geoffre/Full-Stack-Trading-App/blob/master2/minute_stocks.csv"> Code Link</a>
 
 <h4>Populate Minute Data:</h4>
+This Python script imports necessary libraries and connects to an SQLite database. It reads stock symbols from a CSV file, retrieves historical minute-level price data using Yahoo Finance API for each stock, and inserts the data into the database. The script iterates through a specified date range, resamples the data to 1-minute intervals, and handles missing values.<a href="https://github.com/trystan-geoffre/Full-Stack-Trading-App/blob/master2/populate_minute_data.py"> Code Link</a>
 
-<a href=""> Code Link</a>
+<h4>Populate Minute Data:</h4>
+  The provided Python code leverages the Backtrader library for backtesting the trading strategy Opening Range Breakout. The script iterates over distinct stocks, initializes the backtesting engine, fetches minute-level price data from a SQLite database, and executes the backtest using the defined strategy. The results are printed, and a plot is generated for visual analysis. This approach allows for evaluating the strategy's performance across different stocks, providing insights into its effectiveness in various market conditions.
+<a href="https://github.com/trystan-geoffre/Full-Stack-Trading-App/blob/master2/backtest.py"> Code Link</a>
   </p>
   <br>
 </details>
