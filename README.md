@@ -209,7 +209,7 @@ You can find the Stocks' tickers I have used for the Backtesting in minute_stock
 <h4>Populate Minute Data:</h4>
 This Python script imports necessary libraries and connects to an SQLite database. It reads stock symbols from a CSV file, retrieves historical minute-level price data using Yahoo Finance API for each stock, and inserts the data into the database. The script iterates through a specified date range, resamples the data to 1-minute intervals, and handles missing values.<a href="https://github.com/trystan-geoffre/Full-Stack-Trading-App/blob/master2/populate_minute_data.py"> Code Link</a>
 
-<h4>Populate Minute Data:</h4>
+<h4>Backtesting:</h4>
   The provided Python code leverages the Backtrader library for backtesting the trading strategy Opening Range Breakout. The script iterates over distinct stocks, initializes the backtesting engine, fetches minute-level price data from a SQLite database, and executes the backtest using the defined strategy. The results are printed, and a plot is generated for visual analysis. This approach allows for evaluating the strategy's performance across different stocks, providing insights into its effectiveness in various market conditions.
 <a href="https://github.com/trystan-geoffre/Full-Stack-Trading-App/blob/master2/backtest.py"> Code Link</a>
   </p>
