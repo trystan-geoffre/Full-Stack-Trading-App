@@ -54,6 +54,8 @@ To create, maintain a 5GB database with 5 different tables and +35 millions rows
 <h4> HTML: </h4>
 Used to create the Trading platform interface and website functionalities.
 
+<h1></h1>
+  
   <h3>Python Libraries & APIs</h3>
   
 <h4> SQLite3: </h4>
