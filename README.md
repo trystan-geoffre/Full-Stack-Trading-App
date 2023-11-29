@@ -56,7 +56,7 @@ Used to create the Trading platform interface and website functionalities.
 
 <h1></h1>
   
-  <h3>Python Libraries & APIs</h3>
+<h3>Python Libraries & APIs</h3>
   
 <h4> SQLite3: </h4>
 Python library that enables the use of SQLite within PythonLibrary permitting to use SQLite within python
