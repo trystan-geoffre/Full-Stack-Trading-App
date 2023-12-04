@@ -8,16 +8,16 @@ Welcome to my repository dedicated to explain the construction of a Trading Plar
 
 <h2 align="center">🌅 Journey Highlights 🌅</h2>
 <p>
-Building the trading was a logique choice for me. I knew that I needed challenged on building, maintening   a dynamic database. Having previously developed a Trading AI with TensorFlow <a href="https://github.com/trystan-geoffre/Trading-AI-TensorFlow/tree/master">(Project Link)</a>, the logical next step was to create an entire trading environment based on a custom database. As of now, the database consisting of five different tables, one of which has over 35 million rows.
+Building the trading was a logical choice for me. I knew that I needed to be challenged on building and maintening a dynamic database. Having previously developed a Trading AI with TensorFlow <a href="https://github.com/trystan-geoffre/Trading-AI-TensorFlow/tree/master">(Project Link)</a>, the next step was to create an entire trading environment based on a custom database. As of now, the database consists of five different tables, one of which has over 35 million rows.
   I would like to express my gratitude to Part-Time Larry for providing essential concepts and foundations that facilitated the construction of this platform.
 
 <h1></h1>
 
 <h3>💫 Quick platform review 💫 </h3>
 
-The platform boasts 6 distinct trading strategies (3 for buying and 3 for shorting) applicable to over 11,000 different stocks, cryptocurrencies, and other assets. The list of tickers is updated daily, automated data download providing real-time updates on the website. Additionally, the website offers a TradingView chart.
+The platform boasts 6 distinct trading strategies (3 for buying and 3 for shorting), all applicable to over 11,000 different stocks, cryptocurrencies, and other assets. The list of tickers is updated daily, automated data download providing real-time updates on the website. Additionally, the website offers a TradingView chart.
 
-*The code is complete, and the website functions locally. However, I acknowledge that the HTML code for the user interface does not meet the standards of a well-finished website. Despite website development not being my primary focus, I am committed to delivering quality work. I will share the link to the website as soon as I complete the necessary improvements. Thank you for your understanding*
+*The code is complete, and the website functions locally. However, I acknowledge that the HTML code for the user interface does not meet the standards of a well-finished website. Despite website development not being my primary focus, I am committed to delivering quality work. I will share the link to the website as soon as I finish the necessary improvements. Thank you for your understanding*
 
 <br>
 
