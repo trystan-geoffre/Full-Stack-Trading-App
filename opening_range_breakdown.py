@@ -3,8 +3,6 @@ import sqlite3
 import alpaca_trade_api as tradeapi
 import yfinance as yf
 import pandas as pd
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
 
 from config import *
 from helpers import *
